@@ -1,0 +1,1 @@
+export * from './patron-factory/patron-factory';
