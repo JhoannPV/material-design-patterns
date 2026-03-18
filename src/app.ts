@@ -1,7 +1,8 @@
-import { patronAbstractFactory, patronBuilder, patronFactory } from "./patrones-creacionales";
+import { patronAbstractFactory, patronBuilder, patronFactory, patronPrototype } from "./patrones-creacionales";
 
 (() => {
     // patronFactory();
     // patronAbstractFactory();
-    patronBuilder();
+    // patronBuilder();
+    patronPrototype();
 })();
