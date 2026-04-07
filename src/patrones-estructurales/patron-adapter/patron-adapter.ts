@@ -1,4 +1,5 @@
-export const patronAdapter = () => {
-    console.log('Patron Adapter');
+import { menu } from "./menu"
 
+export const patronAdapter = () => {
+    menu();
 }
