@@ -1,4 +1,4 @@
-import { patronAbstractFactory, patronBuilder, patronFactory, patronPrototype } from "./patrones-creacionales";
+import { patronAbstractFactory, patronBuilder, patronFactory, patronPrototype, patronSingleton } from "./patrones-creacionales";
 import { patronAdapter, patronBridge } from "./patrones-estructurales";
 
 (() => {
@@ -6,9 +6,10 @@ import { patronAdapter, patronBridge } from "./patrones-estructurales";
     // patronFactory();
     // patronAbstractFactory();
     // patronBuilder();
-    //patronPrototype();
+    // patronPrototype();
+    // patronSingleton();
 
     // PATRONES ESTRUCTURALES
-    //patronAdapter();
+    // patronAdapter();
     patronBridge();
 })();
