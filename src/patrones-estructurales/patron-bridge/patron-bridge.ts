@@ -1,3 +1,5 @@
+import { implBridge } from "./implementacion"
+
 export const patronBridge = () => {
-    console.log('Patron Bridge');
+    implBridge();
 }
