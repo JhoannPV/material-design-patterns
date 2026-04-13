@@ -10,6 +10,6 @@ import { patronAdapter, patronBridge } from "./patrones-estructurales";
     // patronSingleton();
 
     // PATRONES ESTRUCTURALES
-    // patronAdapter();
+    //patronAdapter();
     patronBridge();
 })();

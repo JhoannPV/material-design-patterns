@@ -1,7 +1,7 @@
 import { Color } from "../../color";
 import { Forma } from "../forma";
 
-export class Circulo implements Forma {
+export class Cuadrado implements Forma {
     private color: Color;
 
     public constructor(color: Color) {
@@ -13,6 +13,6 @@ export class Circulo implements Forma {
     }
 
     dibujar(): void {
-        console.log(`Dibujando un Círculo de color ${this.color.getColor()}`);
+        console.log(`Dibujando un Cuadrado de color ${this.color.getColor()}`);
     }
 }
