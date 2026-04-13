@@ -1,18 +1,13 @@
 import { Color } from "../../color";
 import { Forma } from "../forma";
 
-export class Circulo implements Forma {
-    private color: Color;
+export class Circulo extends Forma {
 
     public constructor(color: Color) {
-        this.color = color;
-    }
-
-    setColor(color: Color) {
-        this.color = color;
+        super(color);
     }
 
     dibujar(): void {
-        console.log(`Dibujando un Círculo de color ${this.color.getColor()}`);
+        console.log(`Dibujando un Círculo de color ${this.getColor()}`);
     }
 }

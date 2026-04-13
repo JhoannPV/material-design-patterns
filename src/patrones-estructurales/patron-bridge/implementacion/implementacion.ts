@@ -6,13 +6,13 @@ export const implBridge = () => {
     const circulo = new Circulo(new ColorRed());
     circulo.dibujar();
 
-    circulo.setColor(new ColorBlue());
-    circulo.dibujar();
+    const circulo2 = new Circulo(new ColorBlue());
+    circulo2.dibujar();
 
     // Cuadrado
     const cuadrado = new Cuadrado(new ColorRed());
     cuadrado.dibujar();
 
-    cuadrado.setColor(new ColorBlue());
-    cuadrado.dibujar();
+    const cuadrado2 = new Cuadrado(new ColorBlue());
+    cuadrado2.dibujar();
 }
