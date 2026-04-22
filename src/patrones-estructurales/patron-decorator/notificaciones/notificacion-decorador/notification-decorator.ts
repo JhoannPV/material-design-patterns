@@ -7,7 +7,5 @@ export abstract class NotificationDecorator implements NotificationInterface {
         this.notification = notification;
     }
 
-    send(): string {
-        return this.notification.send();
-    }
+    abstract send(): string;
 }

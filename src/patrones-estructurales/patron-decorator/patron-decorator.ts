@@ -1,3 +1,4 @@
+import { marioDecorator } from "./mario/implementacion";
 import { notificationsDecorator } from "./notificaciones/implementacion"
 import { textsDecorator } from "./textos/implementacion";
 
@@ -10,4 +11,8 @@ export const patronDecorator = () => {
     // textos
     console.log('\nTextos: \n');
     textsDecorator();
+
+    // mario
+    console.log('\nMario: \n');
+    marioDecorator();
 }
