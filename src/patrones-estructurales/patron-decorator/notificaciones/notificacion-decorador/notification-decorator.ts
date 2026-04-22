@@ -1,6 +1,6 @@
 import { NotificationInterface } from "../notificacion";
 
-export class NotificationDecorator implements NotificationInterface {
+export abstract class NotificationDecorator implements NotificationInterface {
     protected notification: NotificationInterface;
 
     constructor(notification: NotificationInterface) {
