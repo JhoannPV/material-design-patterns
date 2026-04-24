@@ -1,5 +1,6 @@
 import { TreeTypeData } from "../tree-type-data";
 
+// Parte intrinseca: compartida entre objetos, no cambia
 export class TreeTypeFlyweight {
     constructor(private readonly data: TreeTypeData) { }
 
