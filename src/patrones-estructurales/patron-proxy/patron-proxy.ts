@@ -1,3 +1,5 @@
+import { validateAccessProxy } from "./implementation";
+
 export const patronProxy = () => {
-    console.log('Patron Proxy');
+    validateAccessProxy();
 }
